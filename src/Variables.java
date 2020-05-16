@@ -26,7 +26,18 @@ public class Variables {
 		System.out.println("Another int is " + anotherInt);
 		
 		
-		// 책 페이지 65부터 다시 볼것
+		// Escape sequences
+		
+		// \n : Backspace ; moves the cursor one space to the left
+		// \t : tap
+		// \n : new line
+		// \r : carrage return; moves the cursor to the beginning of the current line
+		// \" : Double quotation mark
+		// \' : Single quotation mark
+		// \\ : Backslash
+		
+		System.out.println("\t\"abc\\def\bghi\n\njkl");
+		
 
 	}
 

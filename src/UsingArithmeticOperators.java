@@ -67,7 +67,8 @@ public class UsingArithmeticOperators {
 		System.out.println("the average of " + firstNumber + " and " + secondNumber + " is " + average);
 		// it will occur inappropriate numbers as results!
 		
-
+		
+		
 	}
 
 }

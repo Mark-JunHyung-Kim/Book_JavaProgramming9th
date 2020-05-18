@@ -77,7 +77,6 @@ public class UnderstandingTypeConversion {
 		average = sum / 2.0;	// in this calculation, integer sum is divided by the 'double' constant '2.0'
 		System.out.println("the average of " + firstNumber + " and " + secondNumber + " is " + average);
 		
-
 	}
 
 }

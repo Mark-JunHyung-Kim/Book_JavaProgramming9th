@@ -7,7 +7,7 @@ package Chapter_3;
 public class SpaService
 {
 	private String serviceDescription;
-	private double price;
+	private double price;	
 	
 	public String getServiceDescription()
 	{
@@ -21,11 +21,19 @@ public class SpaService
 	{
 		return price;
 	}
-	public void SetPrice(double servicePrice)
+	public void setPrice(double servicePrice)
 	{
 		price = servicePrice;
 	}
 	
-	// Page 145부터 볼것!!
+	
+	
+	public SpaService()
+	{
+		serviceDescription = "XXX";
+		price = 0;
+	}
+	
+	 
 
 }

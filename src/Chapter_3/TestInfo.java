@@ -18,6 +18,19 @@ public class TestInfo {
 		UnderstandingMethodCallsAndPlacement.displayAddress();
 		
 		// it should be in the same directory.
+		
+		
+		// Declaring Objects and Using Their Methods (page 145)
+		UsingMethodsClassesObjects clerk = new UsingMethodsClassesObjects();
+		UsingMethodsClassesObjects driver = new UsingMethodsClassesObjects();
+		clerk.setEmpNum(345);
+		driver.setEmpNum(567);
+		System.out.println("The clerk's number is " +
+							clerk.getEmpNum() +
+							" and the driver's number is " +
+							driver.getEmpNum());
+		
+		// clerk.empNum = 789; this method is not visible!
 
 	}
 

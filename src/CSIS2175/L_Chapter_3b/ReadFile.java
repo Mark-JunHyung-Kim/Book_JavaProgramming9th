@@ -1,4 +1,4 @@
-package CSIS2175.B_Chapter_3b;
+package CSIS2175.L_Chapter_3b;
 //Date : 2020.05.29
 //Name : Mark JunHyung Kim
 //Chapter : Lecture : Chapter#3b (~p33)

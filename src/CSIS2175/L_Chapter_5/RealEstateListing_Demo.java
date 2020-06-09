@@ -13,6 +13,9 @@ public class RealEstateListing_Demo
 		// 해당 RealEstateListing 클래스 내에서 어떤식으로 Object가 생성되는지 확인할 것.
 		
 		rel.display();
+		
+		
+		// 8일은 복습만.. (패스!)
 	
 
 	}

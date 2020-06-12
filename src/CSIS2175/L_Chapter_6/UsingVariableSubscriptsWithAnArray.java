@@ -31,7 +31,7 @@ public class UsingVariableSubscriptsWithAnArray {
 			for(sub = 0; sub < scoreArray.length; ++sub)	// => length field : number of elements in the array.
 				scoreArray[sub] += 3;
 		
-		// 시험공부시즌!!
+		// 시험공부시즌!! (계속)
 
 	}
 

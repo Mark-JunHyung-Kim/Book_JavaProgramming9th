@@ -1,7 +1,7 @@
 package CSIS2175.L_Chapter_6;
-//Date : 2020.06.09
+//Date : 2020.06.12
 //Name : Mark JunHyung Kim
-//Chapter : Lecture : Chapter#6 (~9)
+//Chapter : Lecture : Chapter#6 (p~17)
 //Subject : Arrays
 
 public class UsingVariableSubscriptsWithAnArray {
@@ -31,7 +31,17 @@ public class UsingVariableSubscriptsWithAnArray {
 			for(sub = 0; sub < scoreArray.length; ++sub)	// => length field : number of elements in the array.
 				scoreArray[sub] += 3;
 		
-		// 시험공부시즌!! (계속)
+
+			
+		// Enhanced 'for loo'p or 'for each loop'.
+			
+			for(sub = 0; sub < scoreArray.length; ++sub)
+				System.out.println(scoreArray[sub]);
+			
+			
+			for(int val : scoreArray)
+				System.out.println(val);
+			
 
 	}
 

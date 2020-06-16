@@ -14,7 +14,7 @@ public class P141_DoWhileDemo {
 		do
 		{
 			System.out.println("Count is : " + count);
-			count ++;
+			count ++;			// 이거 안써주면 무한반복!!
 			
 		}while(count < 5);		// dowhile문에서는 while뒤에 statement가 안들어감. 와일 뒤에 ; 잊지말것. 1~4까지 출력.
 		

@@ -9,6 +9,8 @@ public class P344_Employee_Demo
 
 	public static void main(String[] args) 
 	{
+		
+		
 		P344_Employee[] emps = new P344_Employee[7];			// Array object 생성하는법 숙지해야함.
 		
 		String[] deptNames = {"Accounting", "Human Resources", "Sales"};
@@ -37,7 +39,47 @@ public class P344_Employee_Demo
 		for(int x = 0; x < deptNames.length; ++x)
 			System.out.println(deptNames[x]);
 			
-
+		/*
+		
+		P344_Employee SampleA = new P344_Employee(100, 105.50);
+		
+		System.out.println(SampleA.getEmpNum());
+		
+		int num2 = 200;
+		int num3 = 300;
+		
+		SampleA.setEmpNum(num2);		
+		
+		System.out.println(SampleA.getEmpNum());
+		
+		System.out.println(SampleA);
+		
+		SampleA.setEmpNum(num3);
+		
+		System.out.println(SampleA);
+		
+		
+		
+		P344_Employee SampleB = new P344_Employee(120, 113.30);
+		
+		System.out.println(SampleA);		// Employee 클래스의 field가 static이면, 같은 메모리location을 공유하기때문에 값이 덮어씌워짐.
+		System.out.println(SampleB);
+		
+		
+		
+		System.out.println(P344_Employee.PubSta);
+		System.out.println(SampleA.PubSta);				// public + static은 클래스명, 오브젝트명 두가지로 다 호출 가능.
+		
+		
+		System.out.println(SampleA.PubNoSta);			// public + Non Static은 오브젝트명으로만 호출 가능.
+		
+		
+		System.out.println(P344_Employee.PriSta);		// private + static은 클래스, 오브젝트명 둘다 호출 불가.
+		System.out.println(SampleA.PriSta);
+		
+		System.out.println(P344_Employee.PriNoSta);		// private + Non static은 클래스, 오브젝트명 둘다 호출 불가.
+		System.out.println(SampleA.PriNoSta);			
+		*/
 	}
 
 }

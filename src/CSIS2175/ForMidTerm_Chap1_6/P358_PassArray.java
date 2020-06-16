@@ -31,7 +31,7 @@ public class P358_PassArray
 				// 일반 변수의 메서드 콜같은 경우, 리턴을 하지않으면 원래 값이 변하지 않지만, 배열의 경우에는 바뀜!!!!!! 주의할것!!!!!
 		
 	}
-	public static void methodGetArray(int[] args) 
+	public static void methodGetArray(int[] args) 			// parameter가 int[] 배열로 되어있음!!
 	{
 		int x;
 

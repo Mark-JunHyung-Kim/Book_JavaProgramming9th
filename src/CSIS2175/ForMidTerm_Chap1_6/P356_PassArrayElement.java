@@ -30,11 +30,12 @@ public class P356_PassArrayElement
 		
 
 	}
-	public static void methodGetOneInt(int num) 
+	public static void methodGetOneInt(int num) 		// parameter가 int로 되어있음!!
 	{
 		System.out.println("At the start of method : " + num);
 		
 		num = 8585;								// 여기서 새로운값을 num argument에 대입해도, main내의 본래 값은 변하지 않음!
+												// 애시당초 배열이 들어온게 아니고 각 배열의 int값이 들어온거니 바뀔리가..
 		
 		System.out.println("At the end of method : " + num);
 	}

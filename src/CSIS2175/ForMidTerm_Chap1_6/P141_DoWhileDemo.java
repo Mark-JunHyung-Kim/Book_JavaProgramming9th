@@ -18,7 +18,10 @@ public class P141_DoWhileDemo {
 			
 		}while(count < 5);		// dowhile문에서는 while뒤에 statement가 안들어감. 와일 뒤에 ; 잊지말것. 1~4까지 출력.
 		
+		
 
 	}
+	
+	
 
 }

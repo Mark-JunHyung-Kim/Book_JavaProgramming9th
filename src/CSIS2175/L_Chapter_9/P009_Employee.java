@@ -11,6 +11,23 @@ public class P009_Employee
 	private String firstName;	
 	private double salary;
 	
+	public P009_Employee(int num, String lName, String fName, double sal)
+	{
+		empNum = num;
+		lastName = lName;
+		firstName = fName;
+		salary = sal;
+	}	
+	
+	public P009_Employee()
+	{
+		empNum = 0;
+		lastName = "Sample L Name";
+		firstName = "Sample F Name";
+		salary = 0.00;
+	}	
+
+	
 	public int getEmpNum()
 	{
 		return empNum;
@@ -40,7 +57,7 @@ public class P009_Employee
 	{
 		firstName = name;
 	}
-	
+
 	public double getSalary()
 	{
 		return salary;
@@ -49,6 +66,11 @@ public class P009_Employee
 	public void setSalary(double sal)
 	{
 		salary = sal;
+	}
+	
+	public void display()
+	{
+		System.out.println("Num"+empNum+ ": " + firstName + " " + lastName + " = " + salary);
 	}
 	
 

@@ -4,11 +4,22 @@ package CSIS2175.L_Chapter_8;
 //Chapter : Lecture#08 (After Chapter#9)
 //Subject : P005 - TryToCompareStrings
 
-public class P005_TryToCompareStrings {
+import java.util.*;
+public class P005_TryToCompareStrings 
+{
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}// 여기부터 할것.
+	public static void main(String[] args) 
+	{
+		String aName = "Carmen";
+		String anotherName;
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter your name >>  ");
+		anotherName = input.nextLine();
+		
+		if(aName == anotherName)											// Don't do it!! string에서는 == 안먹힘.
+			System.out.println(aName + " equals " + anotherName);
+		else
+			System.out.println(aName + " does not equal " + anotherName);
+	}
 
 }

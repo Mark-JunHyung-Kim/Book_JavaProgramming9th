@@ -1,8 +1,8 @@
 package CSIS2175.L_Chapter_8;
-//Date : 2020.06.26
+//Date : 2020.06.28
 //Name : Mark JunHyung Kim
 //Chapter : Lecture#08 (After Chapter#9)
-//Subject : P005 - TryToCompareStrings
+//Subject : P009 - CharacterInfo
 
 public class P009_CharacterInfo 
 {

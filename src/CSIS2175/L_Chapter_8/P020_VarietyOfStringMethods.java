@@ -41,11 +41,22 @@ public class P020_VarietyOfStringMethods
 		System.out.println("Changing all 'a' characters to 'e' : " + myName.replace('a', 'e'));
 														// replace('old char', 'new char') method = Replaces all occurrences of some character within a String.
 		
-		int someInt = 4;		
+		int someInt = 6;		
 		System.out.println("Changing integer valuable to String valueable : " + Integer.toString(someInt));
 														// Not part of the String class
 														// Converts any object to a String
 														// Converts primitive data types to Strings
+		
+		System.out.println("The character of position " + someInt + " is : " + myName.charAt(someInt));
+														// Requires an integer argument
+														// Indicates the position of the character that the method returns
+		
+		int startInt = 2, endInt = 5;
+		System.out.println("The substring from " + startInt + " to " + endInt + " is : " + myName.substring(startInt, endInt));
+														// Extracts part of a String
+														// Takes two integer arguments (Start - End position)
+														// The length of the extracted substring is the difference between the second integer and the first integer.
+		
 		
 		
 	}

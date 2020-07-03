@@ -58,6 +58,24 @@ public class P020_VarietyOfStringMethods
 														// The length of the extracted substring is the difference between the second integer and the first integer.
 		
 		
+		String firstString = "abcde";
+		String secondString = "xxbcdef";
+		
+		System.out.println(firstString.regionMatches(1, secondString, 2, 4));
+														// regionMatches(첫번째 Str 시작지점, 비교할 String, 비교할 String 시작지점, ★비교할 SubString 크기!)
+														// fStr의 bcde(4개) 와 sStr의 bcde(4개)를 비교함.
+		
+		System.out.println(firstString.regionMatches(0, secondString, 3, 2));
+														// fStr의 ab와 sStr의 cd를 비교하므로 False.
+		
+		
+		String thirdString = "123 Maple Drive";
+		String fourthString = "a maple tree";
+		System.out.println(thirdString.regionMatches(true, 4, fourthString, 2, 5));
+														// 처음 값이 true면, case 크기를 무시하고 비교함.
+		
+		
+		
 		
 	}
 

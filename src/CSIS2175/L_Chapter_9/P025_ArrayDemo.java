@@ -21,8 +21,11 @@ public class P025_ArrayDemo
 		myScores[4] = 3;
 		display("After changing two values:                  ", myScores);
 		
-		Arrays.parallelSort(myScores);								// sort(type[] a); a 배열을 오름차순으로 정렬.
+		Arrays.sort(myScores);										// sort(type[] a); a 배열을 오름차순으로 정렬.
+		//Arrays.parallelSort(myScores);								
 		display("After sorting:                  ", myScores);
+		
+				// 책 페이지 440 페이지. 
 
 	}
 	public static void display(String message, int array[])

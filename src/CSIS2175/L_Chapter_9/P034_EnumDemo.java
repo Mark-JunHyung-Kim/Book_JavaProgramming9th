@@ -24,19 +24,27 @@ public class P034_EnumDemo
 		for(Month mon : Month.values())					// 메서드 values() = Returns an array of the enumerated constants(열거된 상수).
 			System.out.print(mon + " ");
 		
-		System.out.print("\n\n Enter the first three letter of " + "your birth month (ex.FEB) >> ");
 		
+		
+		System.out.print("\n\n Enter the first three letter of " + "your birth month (ex.FEB) >> ");		
 		userEntry = input.nextLine().toUpperCase();		// 유저인풋을 대문자로 변환해서 받음 (문자만)
 		
-		birthMonth = Month.valueOf(userEntry);			// 메서드 valueOf() = Accepts a string parameter and returns an enumeration constant.
+		
+		birthMonth = Month.valueOf(userEntry);			// 메서드 valueOf() = Accepts a string parameter and returns an enumeration constant.		
 		
 		System.out.println("You entered " + birthMonth);
+		
+		
+		
 		
 		position = birthMonth.ordinal();				// 메서드 ordinal() = Returns an integer that represents the constant's position in the list of constants.
 														// 				   as with arrays, the first position is '0'.
 		
 		System.out.println(birthMonth + " is in position " + position);
 		System.out.println("So its month number is " + (position + 1));		// 0번부터 시작하므로.
+		
+		
+		
 		
 		comparison = birthMonth.compareTo(Month.JUN);	// 메서드 CompareTo() = Returns a negative integer if the calling object's ordinal value is less than that of the argument
 														//					 , 0 if they are the same

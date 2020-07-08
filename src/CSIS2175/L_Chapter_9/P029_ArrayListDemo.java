@@ -9,9 +9,9 @@ import java.util.ArrayList;
 public class P029_ArrayListDemo 
 {
 
-	public static void main(String[] args) 
+	public static void main(String[] args) 				// 책 페이지 448
 	{
-		ArrayList<String> names = new ArrayList<String>();
+		ArrayList<String> names = new ArrayList<String>();	// use angle bracket.
 		
 		names.add("Abigail");						// ArrayList.add("값"); 배열리스트에 값 추가
 		display(names);
@@ -22,7 +22,7 @@ public class P029_ArrayListDemo
 		names.add("Zachary");
 		display(names);
 		
-		names.add("Christy");
+		names.add(2, "Christy");					// 포지션을 정해줘서 넣음. (포지션 2지만, 실제로 0, 1, 2이므로 3번째에 들어감)
 		display(names);
 		
 		names.remove(1);							// ArrayList의 position 1값 제거 (Brian이 제거됨)

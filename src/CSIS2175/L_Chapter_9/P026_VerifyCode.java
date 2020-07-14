@@ -18,6 +18,7 @@ public class P026_VerifyCode
 		char userCode;
 		int position;
 		
+				
 		entry = JOptionPane.showInputDialog(null, "Enter a product code");
 		
 		userCode = entry.charAt(0);				// 유저로부터 받은 String인풋값의 0번째(인덱스) 값을 char형으로 변환?
@@ -30,7 +31,12 @@ public class P026_VerifyCode
 		if(position >= 0)
 			JOptionPane.showMessageDialog(null,  "Position of " + userCode + " is " + position);
 		else
-			JOptionPane.showMessageDialog(null,  userCode + " is an invalid code");		
+			JOptionPane.showMessageDialog(null,  userCode + " is an invalid code");
+			
+					
+					
+					
+				
 
 	}
 

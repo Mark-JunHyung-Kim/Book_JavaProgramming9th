@@ -35,9 +35,9 @@ public class P029_ArrayListDemo
 	}
 	public static void display(ArrayList<String> names)
 	{
-		System.out.println("\n The size of the list is " + names.size());	// names ArrayList의 크기값 확인
+		System.out.println("\n The size of the list is " + names.size());	// names ArrayList의 크기값 확인 (length 아님!!)
 		for(int x = 0; x < names.size(); ++x)
-			System.out.println("position " + x + " Name : " + names.get(x));	// 0부터 크기값까지 저장된 값들 출력
+			System.out.println("position " + x + " Name : " + names.get(x));	// ★ 0부터 크기값까지 저장된 값들 출력 (그냥 배열이랑 다름!)
 	}
 
 }

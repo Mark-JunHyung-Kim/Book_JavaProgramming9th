@@ -12,6 +12,7 @@ public class P033_StringBuilderDemo
 	public static void main(String[] args) 
 	{
 		StringBuilder nameString = new StringBuilder("Barbara");		// StringBuilder도 새 변수 선언시 똑같이 new 써서 함.
+		StringBuilder nameString2 = new StringBuilder(5);		// arg에 int값이 들어가면 capacity값 미리 정해주는것.
 		
 		// ★★ 만약 new StringBuilder(int) 값으로, arg에 int값을 넣어주면, 그건 StringBuilder의 capacity 값을 미리 정해주는것임.
 		
@@ -21,7 +22,7 @@ public class P033_StringBuilderDemo
 																		// 기본 버퍼가 16? 16 + 문자열 길이만큼?
 		
 		StringBuilder addressString = null;
-		addressString = new StringBuilder("6311 Hickory Nut Grove Road");
+		addressString = new StringBuilder("6311 Hickory Nut Grove Road");	
 		
 		int addStringCapacity = addressString.capacity();
 		
@@ -47,7 +48,7 @@ public class P033_StringBuilderDemo
 		
 		
 		myName.setCharAt(0, 'D');										// setCharAt() method : changes a character at a 'specific position' within a StringBuilder object
-		System.out.println(myName);										// 왜인지는 모르겠지만, println으로 바로 출력하는건 불가능. 변환 후 출력.
+		System.out.println(myName);										// 왜인지는 모르겠지만, println 안에서 바로 출력하는건 불가능. 한번 변환 후 별도로 출력.
 		
 		
 		

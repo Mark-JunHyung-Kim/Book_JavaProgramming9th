@@ -8,11 +8,12 @@ public class P004_SwapTwoNumbers {
 
 	public static void main(String[] args) 
 	{
+		
 		int temp, valA, valB;
 		
-		valA = 16;
-		valB = 2;
-		
+		valA = 2;
+		valB = 16;
+		/*
 		System.out.println("valA is : " + valA + " and valB is : " + valB);
 		
 		temp = valA;
@@ -22,6 +23,17 @@ public class P004_SwapTwoNumbers {
 		System.out.println("valA is : " + valA + " and valB is : " + valB);
 		
 		// 나머지는 내일부터 이어서
+		*/
+		if (valA > valB)
+		{
+			temp = valA;
+			valA = valB;
+			valB = temp;
+			System.out.println (valA + " " + valB);
+		}
+		else
+			System.out.println(valA + " " + valB);
+			
 		
 
 	}

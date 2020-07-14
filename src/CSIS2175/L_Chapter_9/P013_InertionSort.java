@@ -4,9 +4,9 @@ package CSIS2175.L_Chapter_9;
 //Chapter : Lecture#07 = Chapter#9
 //Subject : P013 - The Insertion sort
 
-public class P013_InertionSort 
+public class P013_InertionSort 							// BubbleSort와 차이점은? 원리 중요. 어려움.  
 {
-
+	/*
 	public static void main(String[] args) 
 	{
 		int[] someNums = {90, 85, 65, 95, 75};
@@ -31,7 +31,10 @@ public class P013_InertionSort
 			++x;
 		}
 	}
-	/*
+	*/	
+	
+	
+	
 	public static void main(String[] args)				// 알고리즘 표현 버전. 
 	{
 		int[] someNums = {90, 85, 65, 95, 75};
@@ -61,6 +64,6 @@ public class P013_InertionSort
 			++x;
 		}
 	}
-	*/
+	
 
 }

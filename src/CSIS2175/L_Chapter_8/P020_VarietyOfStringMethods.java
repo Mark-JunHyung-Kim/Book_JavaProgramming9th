@@ -51,7 +51,7 @@ public class P020_VarietyOfStringMethods
 														// Requires an integer argument
 														// Indicates the position of the character that the method returns
 		
-		int startInt = 2, endInt = 5;
+		int startInt = 3, endInt = 6;
 		System.out.println("The substring from " + startInt + " to " + endInt + " is : " + myName.substring(startInt, endInt));
 														// Extracts part of a String
 														// Takes two integer arguments (Start - End position)
@@ -66,13 +66,13 @@ public class P020_VarietyOfStringMethods
 														// fStr의 bcde(4개) 와 sStr의 bcde(4개)를 비교함.
 		
 		System.out.println(firstString.regionMatches(0, secondString, 3, 2));
-														// fStr의 ab와 sStr의 cd를 비교하므로 False.
+														// fStr의 ab와 sStr의 cd를 비교하므로 False.		
 		
 		
 		String thirdString = "123 Maple Drive";
 		String fourthString = "a maple tree";
 		System.out.println(thirdString.regionMatches(true, 4, fourthString, 2, 5));
-														// 처음 값이 true면, case 크기를 무시하고 비교함.
+														// 처음 값이 ★true면, case 크기를 무시하고 비교함.
 		
 		
 		

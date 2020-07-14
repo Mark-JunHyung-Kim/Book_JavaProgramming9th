@@ -4,12 +4,15 @@ package CSIS2175.L_Chapter_9;
 //Chapter : Lecture#07 = Chapter#9
 //Subject : P011 - Employee - Demo
 
+import java.lang.reflect.Array;
 import java.util.Random;
 public class P011_EmployeeDemo 
 {
 
 	public static void main(String[] args) 
 	{
+		
+		
 		P009_Employee[] someEmps = new P009_Employee[5];
 		
 		for(int x = 0; x < someEmps.length; ++x)
@@ -31,11 +34,10 @@ public class P011_EmployeeDemo
 		for(int x = 0; x < someEmps.length; ++x)
 		{			
 			someEmps[x].display();
-		}	
-		
-		// 이부분 이어서.
+		}			
 	
 	}
+	/*
 	public static void bubbleSort(P009_Employee[] array)
 	{
 		int a, b;
@@ -54,9 +56,26 @@ public class P011_EmployeeDemo
 					array[b+1] = temp;										// array[1]에 임시 array에 있던 2를 넣어줌
 				}															// 결국 a[0]은 1이 되고, a[1] 은 2가 되서 오름차순정렬이 됨.
 			}
-		}			
+		}
+	} */
+	
+	public static void bubbleSort(P009_Employee[] arr)					// 이건 연습. 
+	{
+		int a, b;
+		P009_Employee temp;
+		int high = arr.length - 1;
+		
+		for(a = 0; a < high; ++a)
+		{
+			for(b = 0; b < high; ++b)
+			{
+				if(arr[b].getSalary() > arr[b+1].getSalary())
+				{
+					temp = arr[b];
+					arr[b] = arr[b+1];
+					arr[b+1] = temp;
+				}
+			}
+		}
 	}
-	
-	
-
 }

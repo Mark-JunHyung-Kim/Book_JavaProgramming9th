@@ -20,17 +20,24 @@ public class P026_ConvertingStrToNum
 		double doubleValue = Double.parseDouble("147.82");
 		
 		System.out.println(123.45 + doubleValue);	// 결과는 271.27 마찬가지로 double형으로 형변환된 후, 숫자연산이 됨.
+
 		
-		System.out.println(numStr.valueOf('C'));	// Converts a String to an Integer class object.
-		System.out.println(numStr.valueOf('1'));	// Converts a String to an Character class object.
 		
-		String mixStr = "7495";
+		String numStr2 = "649";
+		System.out.println(Integer.valueOf(numStr2) + 1);	// Converts a String to an Character class object.		
 		
-		System.out.println(Integer.valueOf(mixStr).intValue());	
+		
+		
+		String mixStr = "7495";		
+		
+		
+		System.out.println(Integer.valueOf(mixStr).intValue() + 1234);	
 													// parseInt 는 해당 Str을 Int값 객체로 '변환' 하는거지만,
-													// valueOf는 해당 Str '에서' Int값을 '추출' 해서 사용하는것임. (원래 Str 변화없음)
+													// intValue()는 해당 Str '에서' Int값을 '추출' 해서 사용하는것임. (원래 Str 변화없음)
 		
 		System.out.println(1234 + mixStr);			// 변화없음.
+		
+		
 		
 		
 		

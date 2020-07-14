@@ -5,11 +5,13 @@ package CSIS2175.L_Chapter_9;
 //Subject : P017 - Find Rent
 
 import javax.swing.*;
+import java.util.*;
 public class P017_FindRend 
 {
 
 	public static void main(String[] args) 
 	{
+		
 		int[][] rents = { {400, 450, 510},				// Floor 0 rents
 						  {500, 560, 630},				// Floor 1 rents
 						  {625, 676, 740},				// Floor 2 rents
@@ -32,6 +34,21 @@ public class P017_FindRend
 		
 		JOptionPane.showMessageDialog
 			(null,  "The rent for a " + bedrooms + " bedroom apartment on floor " + floor + " is $ " + rents[floor][bedrooms]);
+		
+		
+		int[][] jaggedArray = new int[2][];			// 각각 다른 배열수를 가진 two-demensional array 만들기.
+		
+		jaggedArray[0] = new int[10];
+		jaggedArray[1] = new int[5];
+		
+		for(int i = 0; i < jaggedArray[0].length; ++i)
+			System.out.print(jaggedArray[0][i] + " ");
+		
+		System.out.println();
+		
+		for(int i = 0; i < jaggedArray[1].length; ++i)
+			System.out.print(jaggedArray[1][i] + " ");
+		
 
 	}
 

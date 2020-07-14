@@ -25,7 +25,7 @@ public class P030_ArrayListDemo2
 			students.add(name);										// ArrayList에 input값으로 받은 string name을 4번 넣어줌.
 		}
 		
-		System.out.println("The names are " + students);			// 희안하게, ArrayList를 출력하면 대괄호 내에 각 값들이 한번에 출력됨!
+		System.out.println("The names are " + students);			// ★ 희안하게, ArrayList를 출력하면 대괄호 내에 각 값들이 한번에 출력됨!
 	}
 
 }

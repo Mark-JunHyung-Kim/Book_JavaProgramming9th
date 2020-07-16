@@ -9,7 +9,13 @@ public class P017_DisplayDog
 
 	public static void main(String[] args) 
 	{
-		P017_Dog myDog = new P017_Dog();
+		P017_Animal myDog;
+		
+		myDog = new P017_Dog();
+		
+		
+		
+		myDog.setName("Mark");
 		
 		
 		String dogString = myDog.toString();		// Even though neither the Animal nor the Dog class contains
@@ -17,6 +23,9 @@ public class P017_DisplayDog
 		
 		
 		System.out.println(dogString);
+		
+		myDog.speak();
+		
 		
 		// ¡Ú¡ÚOutput = Classname + @ + Hash Code (a calculated number used to uniquely identify an object).
 	}

@@ -21,6 +21,8 @@ public class P034_EnumDemo
 		
 		Scanner input = new Scanner(System.in);
 		
+		System.out.println(Month.values());
+		
 		for(Month mon : Month.values())					// 메서드 values() = Returns an array of the enumerated constants(열거된 상수).
 			System.out.print(mon + " ");
 		

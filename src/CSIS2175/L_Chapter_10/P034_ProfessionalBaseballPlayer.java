@@ -8,7 +8,7 @@ public class P034_ProfessionalBaseballPlayer extends P033_BaseballPlayer
 {
 	double salary;
 
-	// @Override;									// Override 삭제
+	//@Override;									// Override 삭제
 	
 	
 	public static void showOrigins()				// Don't do it : A nonstatic method cannot override a static member of a parent class

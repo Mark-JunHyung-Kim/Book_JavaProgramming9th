@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Tue Jul 28 20:30:02 PDT 2020:
+ 클래스 로더 jdk.internal.loader.ClassLoaders$AppClassLoader@67424e82이(가) 있는 데이터베이스 디렉토리 D:\00 Douglas\[002] Summer 2020\[S2020] [CSIS 2175-001] Adv Integrated Software Dev\[004] Coding Practice\myDB에서 
+ Derby 버전 The Apache Software Foundation - Apache Derby - 10.15.2.0 - (1873585): 인스턴스 a816c00e-0173-989e-ab96-00000ed831c8 부팅 중 
+file:/C:/db-derby-10.15.2.0-bin/lib/derby.jar에서 로드됨
+java.vendor=Oracle Corporation
+java.runtime.version=13.0.2+8
+user.dir=D:\00 Douglas\[002] Summer 2020\[S2020] [CSIS 2175-001] Adv Integrated Software Dev\[004] Coding Practice
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+데이터베이스 클래스 로더가 시작됨 - derby.database.classpath=''

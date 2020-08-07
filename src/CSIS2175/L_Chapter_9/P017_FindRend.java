@@ -10,15 +10,14 @@ public class P017_FindRend
 {
 
 	public static void main(String[] args) 
-	{
-		
+	{		
 		int[][] rents = { {400, 450, 510},				// Floor 0 rents
 						  {500, 560, 630},				// Floor 1 rents
 						  {625, 676, 740},				// Floor 2 rents
 						  {1000, 1250, 1600} };			// Floor 3 rents
 		
 		System.out.println(rents.length);			// 배열 row의 길이
-		System.out.println(rents[1].length);		// 배열[1]row의 column의 길이.
+		System.out.println(rents[0].length);		// 배열[1]row의 column의 길이.
 		
 		String entry;
 		int floor;

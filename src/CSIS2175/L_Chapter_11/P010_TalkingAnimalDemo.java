@@ -5,6 +5,11 @@ public class P010_TalkingAnimalDemo
 
 	public static void main(String[] args) 
 	{
+		P017_Animal animal = new P017_Dog();
+		animal.speak();
+		P017_Animal animal2 = new P017_Cow();
+		animal2.speak();
+		
 		P017_Dog dog = new P017_Dog();
 		P017_Cow cow = new P017_Cow();
 		

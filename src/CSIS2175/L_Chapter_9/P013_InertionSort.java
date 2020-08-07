@@ -6,35 +6,36 @@ package CSIS2175.L_Chapter_9;
 
 public class P013_InertionSort 							// BubbleSort와 차이점은? 원리 중요. 어려움.  
 {
-	/*
-	public static void main(String[] args) 
+	public static void main(String[] args)
 	{
 		int[] someNums = {90, 85, 65, 95, 75};
-		int a = 1;		// 첫번째로 비교할 대상
-		while(a < someNums.length)
+		
+		int a = 1;			 
+		
+		while (a < someNums.length)
 		{
-			int temp = someNums[a];					
-			int b = a - 1;			// 첫번째로 비교당할 대상
-					
-			while(b >= 0 && someNums[b] > temp) 		// && 원본값 > 비교대상값이면, (ex. 90 > 85)
-			{				
-				someNums[b + 1] = someNums[b];			// 비교대상위치에 원본값을 넣음	(ex. 85, 90) 한자리씩 밀림.			
-				--b;						
+			int temp = someNums[a];		// temp = 85
+			int b = a - 1;				// b = 0
+			
+			while (b >= 0 && someNums[b] > temp)		// 90이 85보다 클 경우,(참)
+			{
+				someNums[b + 1] = someNums[b];			// 85에 90을 넣음
+				--b;									// b가 -1이 됨
 			}
-			someNums[b + 1] = temp;						// 그리고 원본값 위치에 비교대상값을 넣음 (위치바뀜)
-			++a;					
+			someNums[b + 1] = temp;						// b는 0, 0번째 자리에 temp 85를 넣음. 
+			++a;										// 이후 세번째 숫자랑 두번째 숫자랑 비교 (반복)			
 		}
+		
 		int x = 0;
 		while(x < someNums.length)
 		{
 			System.out.println(someNums[x]);
 			++x;
 		}
+		
 	}
-	*/	
 	
-	
-	
+	/*
 	public static void main(String[] args)				// 알고리즘 표현 버전. 
 	{
 		int[] someNums = {90, 85, 65, 95, 75};
@@ -63,7 +64,7 @@ public class P013_InertionSort 							// BubbleSort와 차이점은? 원리 중요. 어려�
 			System.out.println(someNums[x]);
 			++x;
 		}
-	}
+	}*/
 	
 
 }

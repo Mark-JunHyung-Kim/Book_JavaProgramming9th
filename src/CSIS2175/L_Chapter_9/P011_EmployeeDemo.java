@@ -62,14 +62,14 @@ public class P011_EmployeeDemo
 	public static void bubbleSort(P009_Employee[] arr)					// 이건 연습. 
 	{
 		int a, b;
-		P009_Employee temp;
+		P009_Employee temp;						// 임시 저장되는곳이 int값이 아니라 배열값임!! 
 		int high = arr.length - 1;
 		
 		for(a = 0; a < high; ++a)
 		{
 			for(b = 0; b < high; ++b)
 			{
-				if(arr[b].getSalary() > arr[b+1].getSalary())
+				if(arr[b].getSalary() > arr[b+1].getSalary())		// 비교는 배열의 특정값끼리 하지만, 저장은 배열이 저장되므로..
 				{
 					temp = arr[b];
 					arr[b] = arr[b+1];

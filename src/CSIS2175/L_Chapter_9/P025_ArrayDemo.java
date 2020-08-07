@@ -4,11 +4,40 @@ package CSIS2175.L_Chapter_9;
 //Chapter : Lecture#07 = Chapter#9
 //Subject : P025 - Array Demo (메서드들은 24페이지에)
 
-import java.util.Arrays;
+import java.util.*;
 
-public class P025_ArrayDemo 
+public class P025_ArrayDemo
 {
-
+	
+	public static void main(String[] args)
+	{
+		int[] myScores = new int [5];
+		display("Original array:          ", myScores);
+		
+		Arrays.fill(myScores,  8);
+		display("After filling with 8s :          ", myScores);
+		
+		myScores[2] = 6;
+		myScores[4] = 3;		
+		display("After changing two values :          ", myScores);
+		
+		Arrays.parallelSort(myScores);
+		display("After sorting :          ", myScores);
+		
+		
+	}
+	
+	public static void display(String message, int array[])
+	{
+		int sz = array.length;
+		System.out.print(message);
+		for(int x = 0; x < sz; ++x)
+			System.out.print(array[x] + " ");
+		System.out.println();
+	}
+	
+	
+/*
 	public static void main(String[] args) 
 	{
 		int[] myScores = new int [5];								// default 값은 0
@@ -36,5 +65,5 @@ public class P025_ArrayDemo
 			System.out.print(array[x] + " ");
 		System.out.println();
 	}
-
+*/
 }

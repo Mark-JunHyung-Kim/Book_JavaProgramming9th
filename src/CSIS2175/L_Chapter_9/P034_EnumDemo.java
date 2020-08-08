@@ -17,17 +17,24 @@ public class P034_EnumDemo
 		int comparison;
 		Scanner input = new Scanner(System.in);
 		
+		
 		System.out.println("The months are : ");
 		for(Month mon : Month.values())
 			System.out.println(mon + " " );
+		
+		
 		System.out.println("\n\n Enter the first three letter of " + " your birth month >> " );
 		userEntry = input.nextLine().toUpperCase();
-		birthMonth = Month.valueOf(userEntry);
+		birthMonth = Month.valueOf(userEntry);		
 		System.out.println("You entered " + birthMonth);
+		
+		
 		position = birthMonth.ordinal();
 		System.out.println(birthMonth + " is in position " + position);
 		System.out.println("So its month number is " + (position + 1));
+		
 		comparison = birthMonth.compareTo(Month.JUN);
+		
 		if(comparison < 0)
 		System.out.println(birthMonth + " is earlier in the year than " + Month.JUN);
 		else

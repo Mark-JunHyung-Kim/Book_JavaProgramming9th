@@ -34,9 +34,9 @@ public class P009_CharacterInfo
 			System.out.println(aChar + " is not a digit");		
 		
 		if(Character.isLetter(aChar))							// isLetter() = arg가 문자면 true, 아니면 false
-			System.out.println(aChar + " is a digit");			// isChar 아님!!!
+			System.out.println(aChar + " is a letter");			// isChar 아님!!!
 		else
-			System.out.println(aChar + " is not a digit");
+			System.out.println(aChar + " is not a letter");
 		
 		
 		if(Character.isLetterOrDigit(aChar))					// isLetterOrDigit() = arg가 문자나 숫자면 true, 아니면 false
